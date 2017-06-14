@@ -1,0 +1,47 @@
+ul, li{
+  list-style-type: none;
+
+}
+
+li {
+  text-align: center;
+
+}
+
+ul {
+
+}
+
+.customers {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+
+img {
+  height: 20vw;
+}
+
+.name {
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #6cba92;
+
+}
+
+.email {
+  margin: 1vw 0vw;
+  opacity: 0.5;
+
+}
+
+.haze {
+  opacity: 0.5;
+}
+
+.title {
+  text-align: center;
+}
